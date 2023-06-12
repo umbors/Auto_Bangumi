@@ -36,7 +36,7 @@ RUN apk add --no-cache \
     sed -i '/bcrypt/d' requirements.txt && \
     pip install --no-cache-dir -r requirements.txt && \
     # Unzip WebUI \
-    unzip dist.zip -d /app/templates && \
+    unzip dist.zip -d /app && \
     mv /app/dist /app/templates && \
     # Add user
     addgroup -S ab -g 911 && \
