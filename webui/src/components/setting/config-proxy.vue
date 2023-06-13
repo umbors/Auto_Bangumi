@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { useI18n } from 'vue-i18n';
 import type { Proxy, ProxyType } from '#/config';
 import type { SettingItem } from '#/components';
 

@@ -7,7 +7,6 @@ import {
   Power,
   Refresh,
 } from '@icon-park/vue-next';
-import { useI18n } from 'vue-i18n';
 
 const { t, locale } = useI18n({ useScope: 'global' });
 const search = ref('');
